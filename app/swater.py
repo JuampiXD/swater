@@ -9,15 +9,13 @@ app = Flask(__name__)
 def get():
     responses = requests.get('https://75jwlvujpd.execute-api.us-east-2.amazonaws.com/staging/expeditions')
     expedition = eval(responses.text)
-    expedition['cheker'] = drinkable()
+    expedition['checker'] = drinkable()
     return render_template('index.html', expedition=expedition)
 
 
-def drinkable ():
+def drinkable():
     checker = randrange(2)
-    print(checker)
     return checker
-
 
 # def pull(*expedition):
 #     return render_template('index.html', expedition=expedition)
