@@ -8,6 +8,14 @@
     <title>SWATER</title>
 </head>
 <body>
-    <h1>Sam dice  que vayas a: X:{{ data.x }}, Y: {{data.y}} el deposito tiene un tamaño de: {{data.tamano}} </h1>
+    <h1>Sam dice  que vayas a: X:{{ expedition.x }}, Y: {{expedition.y}} el deposito tiene un tamaño de: {{expedition.tamano}} </h1>
+    <br>
+    {% if expedition.cheker == 0 %}
+        <h1>El pozo de agua si es potable </h1>
+    {% else %}
+        <h1>El pozo de agua no es potable </h1>
+    {% endif %}
+<h1>{{expedition.cheker}}</h1>
+
 </body>
 </html>
