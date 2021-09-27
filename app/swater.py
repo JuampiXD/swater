@@ -1,7 +1,6 @@
 from random import randrange
 import requests
 from flask import Flask, render_template
-
 app = Flask(__name__)
 
 
@@ -16,6 +15,3 @@ def get():
 def drinkable():
     checker = randrange(2)
     return checker
-
-# def pull(*expedition):
-#     return render_template('index.html', expedition=expedition)
