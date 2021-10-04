@@ -22,9 +22,9 @@
 		  <img class="image1" style="z-index: 1; width: 500px; filter: drop-shadow(0 2px 50px rgba(0, 0, 0, 0.7)" src="../static/css/images/Mars.png" />
 		  <img class="image2" style="z-index: 1; width: 400px" src="../static/css/images/logo.png" />
 		</div>
-      <p>&nbsp;&bull;&nbsp;LONGITUD:{{expedition.x}} &nbsp;&bull;&nbsp;LATITUD:{{expedition.y}} &nbsp;&bull;&nbsp;TAMAÑO: {{expedition.tamano}}</p>
+      <p>&nbsp;&bull;&nbsp;LONGITUD:{{expedition.length}} &nbsp;&bull;&nbsp;LATITUD:{{expedition.latitude}} &nbsp;&bull;&nbsp;TAMAÑO: {{expedition.size}}</p>
         <br>
-            {% if expedition.checker == 0 %}
+            {% if expedition.potable == 0 %}
                <p>El pozo de agua si es potable </p>
             {% else %}
                 <p>El pozo de agua no es potable </p>

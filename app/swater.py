@@ -1,17 +1,15 @@
-from random import randrange
+from Waterhole import Waterhole
 import requests
 from flask import Flask, render_template
+from random import randrange
+
 app = Flask(__name__)
 
 
 @app.route("/")
-def get():
+def getInfo():
     responses = requests.get('https://75jwlvujpd.execute-api.us-east-2.amazonaws.com/staging/expeditions')
-    expedition = eval(responses.text)
-    expedition['checker'] = drinkable()
+    info = eval(responses.text)
+    water = Waterhole(info['x'],info['y'],info['tamano'])
+    expedition = water.extractinfo()
     return render_template('index.html', expedition=expedition)
-
-
-def drinkable():
-    checker = randrange(2)
-    return checker
