@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b0ecf5b-15ae-42bb-b72b-19dc7c32b281" name="Default Changelist" comment="Empleando css para mejorar la Aplicacion Web.">
-      <change afterPath="$PROJECT_DIR$/app/Waterhole.py" afterDir="false" />
+    <list default="true" id="2b0ecf5b-15ae-42bb-b72b-19dc7c32b281" name="Default Changelist" comment="Aplicando OOP">
+      <change afterPath="$PROJECT_DIR$/app/DataBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/swater.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/swater.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Waterhole.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Waterhole.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/swater.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/swater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
     </list>
@@ -145,6 +149,9 @@
       <workItem from="1632839005583" duration="4000" />
       <workItem from="1633361156634" duration="5291000" />
       <workItem from="1633372404795" duration="5250000" />
+      <workItem from="1633401903449" duration="101000" />
+      <workItem from="1633442783409" duration="160000" />
+      <workItem from="1633443153713" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="Primera prueba de tarea">
       <created>1632498818845</created>
@@ -225,7 +232,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/swater$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1632495557498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/swater$Flask__app_swater_py_.coverage" NAME="Flask (app/swater.py) Coverage Results" MODIFIED="1633377698905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/swater$Flask__app_swater_py_.coverage" NAME="Flask (app/swater.py) Coverage Results" MODIFIED="1633442925132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/swater$Flask__swater_py_.coverage" NAME="Flask (app/swater.py) Coverage Results" MODIFIED="1632527586290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/swater$swater.coverage" NAME="swater Coverage Results" MODIFIED="1633372496941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
