@@ -2,13 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0ecf5b-15ae-42bb-b72b-19dc7c32b281" name="Default Changelist" comment="Aplicando OOP">
-      <change afterPath="$PROJECT_DIR$/app/DataBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/swater.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/swater.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Waterhole.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Waterhole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/images/Mars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/images/ie/footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/images/ie/footer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/images/overlay-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/sass/libs/_vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/sass/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/webfonts/fa-solid-900.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/swater.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/swater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/swater.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -80,8 +109,8 @@
       <recent name="C:\Users\juanp\WorkSpace\swater\Process" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app/swater.py)">
-    <configuration name="swater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="swater" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="swater" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,25 +133,20 @@
       <method v="2" />
     </configuration>
     <configuration name="Flask (app/swater.py)" type="Python.FlaskServer" nameIsGenerated="true">
-      <module name="swater" />
-      <option name="target" value="$PROJECT_DIR$/app/swater.py" />
+      <option name="target" value="C:\Users\juanp\WorkSpace\swater\app\swater.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\juanp\WorkSpace\swater\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\juanp\Envs\swater\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.swater" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,6 +176,7 @@
       <workItem from="1633401903449" duration="101000" />
       <workItem from="1633442783409" duration="160000" />
       <workItem from="1633443153713" duration="621000" />
+      <workItem from="1633887095063" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Primera prueba de tarea">
       <created>1632498818845</created>

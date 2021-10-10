@@ -14,4 +14,4 @@ def getInfo():
     expedition = water.extractinfo()
     database = DataBase.DataBase(expedition)
     database.Insert()
-    return render_template('index.html', expedition=expedition)
+    return expedition
